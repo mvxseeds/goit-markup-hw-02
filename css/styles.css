@@ -5,6 +5,7 @@
   --lighter: #ffffff;
   --footer-links-lighter: rgba(255, 255, 255, 0.6);
   --bg-dark: #2f303a;
+  --bg-secondary-btn: #f5f4fa;
 }
 
 body {
@@ -71,6 +72,18 @@ address {
   color: var(--accent);
 }
 
+/* Buttons */
+
+.button.primary {
+  color: var(--lighter);
+  background-color: var(--accent);
+}
+
+.button.secondary {
+  color: var(--secondary-text-color);
+  background-color: var(--bg-secondary-btn);
+}
+
 /* Sections */
 
 .section-title {
@@ -86,16 +99,6 @@ address {
   color: var(--secondary-text-color);
 }
 
-/* Button */
-.button.primary {
-  color: var(--lighter);
-  background-color: var(--accent);
-}
-
-.button.secondary {
-  background-color: #f5f4fa;
-}
-
 .hero .button.primary {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -104,7 +107,7 @@ address {
 }
 
 .hero .section-title {
-  color: #ffffff;
+  color: var(--lighter);
 
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -146,11 +149,26 @@ address {
 
 /* Portfolio Gallery */
 
+.products .button.primary,
+.products .button.secondary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .product-cards .link {
   color: inherit;
 }
 
-/* Background decoration (Studio Page) hero+footer */
+.product-cards .title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+/* Background decoration (Studio Page hero) +footer */
 
 .hero,
 .footer {
