@@ -1,0 +1,179 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent: #2196f3;
+  --lighter: #ffffff;
+  --footer-links-lighter: rgba(255, 255, 255, 0.6);
+  --bg-dark: #2f303a;
+}
+
+body {
+  background-color: var(--lighter);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+}
+
+/* Negating basic tag effects */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Nav */
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent);
+}
+
+.contacts .link {
+  color: inherit;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Header logo */
+
+.logo {
+  color: var(--secondary-text-color);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo > span {
+  color: var(--accent);
+}
+
+/* Sections */
+
+.section-title {
+  color: var(--secondary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.list .title {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+.button.primary {
+  color: var(--lighter);
+  background-color: var(--accent);
+}
+
+.button.secondary {
+  background-color: #f5f4fa;
+}
+
+.hero .button.primary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.hero .section-title {
+  color: #ffffff;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+}
+
+.advantages .title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.advantages .text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team-cards .title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-cards .text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Portfolio Gallery */
+
+.product-cards .link {
+  color: inherit;
+}
+
+/* Background decoration (Studio Page) hero+footer */
+
+.hero,
+.footer {
+  background-color: var(--bg-dark);
+}
+
+/* Footer */
+
+.footer .logo {
+  color: var(--lighter);
+}
+
+.footer .address {
+  color: var(--lighter);
+}
+
+.footer .contact {
+  color: var(--footer-links-lighter);
+}
+
+.contact {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
