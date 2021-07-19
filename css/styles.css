@@ -34,7 +34,6 @@ address {
 .site-nav .link {
   color: var(--secondary-text-color);
 
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,7 +50,6 @@ address {
 .contacts .link {
   color: inherit;
 
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -74,6 +72,10 @@ address {
 
 /* Buttons */
 
+.button {
+  cursor: pointer;
+}
+
 .button.primary {
   color: var(--lighter);
   background-color: var(--accent);
@@ -89,7 +91,6 @@ address {
 .section-title {
   color: var(--secondary-text-color);
 
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -100,7 +101,6 @@ address {
 }
 
 .hero .button.primary {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -109,7 +109,6 @@ address {
 .hero .section-title {
   color: var(--lighter);
 
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -118,7 +117,6 @@ address {
 }
 
 .advantages .title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,22 +125,17 @@ address {
 }
 
 .advantages .text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 
 .team-cards .title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
 .team-cards .text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -151,7 +144,6 @@ address {
 
 .products .button.primary,
 .products .button.secondary {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -162,7 +154,6 @@ address {
 }
 
 .product-cards .title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -190,8 +181,6 @@ address {
 }
 
 .contact {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
